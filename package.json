@@ -1,0 +1,23 @@
+{
+  "name": "fcc-file-metadata-ms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vivekbharatha/FCC-File-Metadata-MS.git"
+  },
+  "author": "Vivek Bharatha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vivekbharatha/FCC-File-Metadata-MS/issues"
+  },
+  "homepage": "https://github.com/vivekbharatha/FCC-File-Metadata-MS#readme",
+  "dependencies": {
+    "express": "4.15.2",
+    "multer": "1.3.0"
+  }
+}
