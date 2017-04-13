@@ -21,6 +21,7 @@ app.post('/api/get-metadata', upload.single('singleFile'), function (req, res, n
 	var response = {};
 	response.size = req.file.size;
 	res.json(response);
+	fs.unlink('./uploads/' + req.file.filename);
 });
 
 app.listen(port, function () {
